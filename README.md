@@ -1,4 +1,5 @@
-# Terminal Schemes
+Terminal Schemes
+=========
 Color schemes for default Linux
 
 ### oolo
