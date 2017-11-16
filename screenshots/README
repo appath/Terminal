@@ -1,15 +1,1 @@
-vim
-git
-wget
-sudo
-yaourt
-dfc [-s] # info default status
-rxvt-unicode-patched
-lfm # manager window
-curl
-# curl https://bootstrap.pypa.io/ez_setup.py | sudo python (lfm)
-bspwm
-sxhkd
-tmux
-xorg-xsetroot
-xorg-xrdb
+ID
