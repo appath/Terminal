@@ -3,4 +3,4 @@ Color schemes for default Linux
 
 ### oolo
 
-![Screenshot](screenshots/terminal.oolo.png)
+![Screenshot](screenshots/terminal_oolo.png)
