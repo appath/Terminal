@@ -12,6 +12,11 @@ _file `.terminal.oolo`
 
 _file `.terminal.sulfur`
 
+### bbit
+![Screenshot](screenshots/terminal_bbit.png)
+
+_file `.terminal.bbit`
+
 Resources
 =========
 _Note WIKI ArchLinux '[X resources](https://wiki.archlinux.org/index.php/X_resources)'
