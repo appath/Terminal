@@ -2,9 +2,10 @@ Terminal Schemes
 =========
 Color schemes for default Linux
 
-### oolo
-
+oolo
+---------
 ![Screenshot](screenshots/terminal_oolo.png)
 
-# Resources
+Resources
+=========
 _Note WIKI ArchLinux '[X resources](https://wiki.archlinux.org/index.php/X_resources)'
