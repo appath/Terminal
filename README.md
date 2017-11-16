@@ -10,12 +10,12 @@ _file `.terminal.oolo` [+1](https://github.com/appath/Terminal/blob/master/schem
 ### sulfur
 ![Screenshot](screenshots/terminal_sulfur.png)
 
-_file `.terminal.sulfur`
+_file `.terminal.sulfur` [+2](https://github.com/appath/Terminal/blob/master/schemes/.terminal.sulfur)
 
 ### bbit
 ![Screenshot](screenshots/terminal_bbit.png)
 
-_file `.terminal.bbit`
+_file `.terminal.bbit` [+3](https://github.com/appath/Terminal/blob/master/schemes/.terminal.bbit)
 
 Resources
 =========
