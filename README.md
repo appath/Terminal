@@ -5,7 +5,7 @@ Color schemes for default Linux
 ### oolo
 ![Screenshot](screenshots/terminal_oolo.png)
 
-_file `.terminal.oolo`
+_file `.terminal.oolo` [+1](https://github.com/appath/Terminal/blob/master/schemes/.terminal.oolo)
 
 ### sulfur
 ![Screenshot](screenshots/terminal_sulfur.png)
