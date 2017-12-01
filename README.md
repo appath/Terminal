@@ -17,6 +17,11 @@ _file `.terminal.sulfur` [+2](https://github.com/appath/Terminal/blob/master/sch
 
 _file `.terminal.bbit` [+3](https://github.com/appath/Terminal/blob/master/schemes/.terminal.bbit)
 
+### bspwm
+![Screenshot](screenshots/terminal_bspwm.png)
+
+_file `.terminal.bspwm` [+4](https://github.com/appath/Terminal/blob/master/schemes/.terminal.bspwm)
+
 Resources
 =========
 _Note WIKI ArchLinux '[X resources](https://wiki.archlinux.org/index.php/X_resources)'
