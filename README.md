@@ -22,6 +22,11 @@ _file `.terminal.bbit` [+3](https://github.com/appath/Terminal/blob/master/schem
 
 _file `.terminal.bspwm` [+4](https://github.com/appath/Terminal/blob/master/schemes/.terminal.bspwm)
 
+### anonymous
+![Screenshot](screenshots/terminal_anonymous.png)
+
+_file `.terminal.bspwm` [+5](https://github.com/appath/Terminal/blob/master/schemes/.terminal.anonymous)
+
 Resources
 =========
 _Note WIKI ArchLinux '[X resources](https://wiki.archlinux.org/index.php/X_resources)'
