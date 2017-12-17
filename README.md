@@ -25,7 +25,7 @@ _file `.terminal.bspwm` [+4](https://github.com/appath/Terminal/blob/master/sche
 ### anonymous
 ![Screenshot](screenshots/terminal_anonymous.png)
 
-_file `.terminal.bspwm` [+5](https://github.com/appath/Terminal/blob/master/schemes/.terminal.anonymous)
+_file `.terminal.anonymous` [+5](https://github.com/appath/Terminal/blob/master/schemes/.terminal.anonymous)
 
 Resources
 =========
