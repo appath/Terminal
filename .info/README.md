@@ -1,6 +1,7 @@
-Info - это информационный инструмент системы CLI, написанный в BASH. [RUS]
+## Info 
+это информационный инструмент системы CLI, написанный в BASH. [RUS]
 
-Info - is an information tool of the CLI system written in BASH. [ENG]
+is an information tool of the CLI system written in BASH. [ENG]
 
 ## Install
 
