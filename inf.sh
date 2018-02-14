@@ -12,6 +12,7 @@
 #  You should have received a copy of the GNU General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>
 
+source $HOME/.GitHub/color
 kernel=$(uname -rmo)
 system=$(source /etc/os-release && echo $PRETTY_NAME)
 pkgs=$(pacman -Q | wc -l)
@@ -21,9 +22,9 @@ memory=$()
 
 cat << EOF
 
-Os ................ $system
-Kernel ............ $kernel
-Shell ............. $shell
-Package ........... $pkgs
+${f1}Os ${f0}................ $f2$system
+${f1}Kernel ${f0}............ $f2$kernel
+${f1}Shell ${f0}............. $f2$shell
+${f1}Package ${f0}........... $f2$pkgs
 
 EOF
