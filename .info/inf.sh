@@ -23,7 +23,6 @@ kernel=$(uname -rmo)
 system=$(source /etc/os-release && echo $PRETTY_NAME)
 pkgs=$(pacman -Q | wc -l)
 shell=$(echo "$SHELL" $p0"$BASH_VERSION)
-wm=$(xprop -id ${WM//* } _NET_WM_NAME | sed -re 's/.*= "(.*)"/\1/')
 memory=$(free -m | awk 'FNR==2{printf "%sMB / %sMB (%.2f%%)\n", $3,$2,$3*100/$2 }')
 
 cat << EOF
