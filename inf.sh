@@ -11,6 +11,9 @@
 #
 #  You should have received a copy of the GNU General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>
+#
+#  Displays info about
+#  To correct while so VIM :set fileformat=unix save file :wq!
 
 source $HOME/.info/color
 kernel=$(uname -rmo)
