@@ -22,7 +22,7 @@ source $HOME/.info/color
 kernel=$(uname -rmo)
 system=$(source /etc/os-release && echo $PRETTY_NAME)
 pkgs=$(pacman -Q | wc -l)
-shell=$(echo "$SHELL" $p0"$BASH_VERSION)
+shell=$(grep `id -u` /etc/passwd | awk -F ':' '{ print $7 }')
 memory=$(free -m | awk 'FNR==2{printf "%sMB / %sMB (%.2f%%)\n", $3,$2,$3*100/$2 }')
 
 cat << EOF
