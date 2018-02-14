@@ -15,6 +15,8 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>
 #
 #  To correct while so VIM :set fileformat=unix save file :wq!
+#
+#  SHELL Bash
 
 source $HOME/.info/color
 kernel=$(uname -rmo)
