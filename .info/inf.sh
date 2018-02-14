@@ -22,6 +22,7 @@ system=$(source /etc/os-release && echo $PRETTY_NAME)
 pkgs=$(pacman -Q | wc -l)
 shell=$(echo "$SHELL" $p0"$BASH_VERSION)
 wm=$(xprop -id ${WM//* } _NET_WM_NAME | sed -re 's/.*= "(.*)"/\1/')
+memory=$(free -m | awk 'NR==2{printf "%sMB / %sMB (%.2f%%)\n", $3,$2,$3*100/$2 }')
 
 cat << EOF
 
@@ -29,5 +30,6 @@ ${f1}Os ${f0}................ $f2$system
 ${f1}Kernel ${f0}............ $f2$kernel
 ${f1}Shell ${f0}............. $f2$shell
 ${f1}Package ${f0}........... $f2$pkgs
+${f1}Memory ${f0}............ $f2$memory
 
 EOF
