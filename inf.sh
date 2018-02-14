@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#  Info a CLI script to show system
+#  Info a CLI bash script to show system
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
