@@ -12,7 +12,7 @@
 #  You should have received a copy of the GNU General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-source $HOME/.GitHub/color
+source $HOME/.info/color
 kernel=$(uname -rmo)
 system=$(source /etc/os-release && echo $PRETTY_NAME)
 pkgs=$(pacman -Q | wc -l)
