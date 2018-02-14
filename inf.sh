@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-# " A handy     
-#   tool INFO
-#    command line "
-#    		2018
 # $Vim set fileformat=unix, wq!
 
 kernel=$(uname -rmo)
@@ -13,9 +9,8 @@ memory=$()
 
 cat << EOF
 
-
 Os ................ $system
+Kernel ............ $kernel
 Package ........... $pkg
-
 
 EOF
