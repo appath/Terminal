@@ -29,7 +29,7 @@ cat << EOF
 ${f1}Os ${f0}................ $f2$system
 ${f1}Kernel ${f0}............ $f2$kernel
 ${f1}Shell ${f0}............. $f2$shell
-${f1}Package ${f0}........... $f2$pkgs
 ${f1}Memory ${f0}............ $f2$memory
+${f1}Package ${f0}........... $f2$pkgs
 
 EOF
