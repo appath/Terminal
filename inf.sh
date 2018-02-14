@@ -11,7 +11,6 @@ pkg=$(pacman -Q | wc -l)
 wm=$(xprop -id ${WM//* } _NET_WM_NAME | sed -re 's/.*= "(.*)"/\1/')
 memory=$()
 
-
 cat << EOF
 
 
