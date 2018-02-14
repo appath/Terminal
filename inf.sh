@@ -3,6 +3,7 @@
 #   tool INFO
 #    command line "
 #    		2018
+# $Vim set fileformat=unix, wq!
 
 kernel=$(uname -rmo)
 system=$(source /etc/os-release && echo $PRETTY_NAME)
