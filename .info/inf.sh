@@ -22,7 +22,35 @@ system=$(source /etc/os-release && echo $PRETTY_NAME)
 pkgs=$(pacman -Q | wc -l)
 shell=$(echo "$SHELL" $p0"$BASH_VERSION)
 wm=$(xprop -id ${WM//* } _NET_WM_NAME | sed -re 's/.*= "(.*)"/\1/')
-memory=$()
+
+get_memory() {
+    case "$memory" in
+        "Linux")
+            # MemUsed = Memtotal + Shmem - MemFree - Buffers - Cached - SReclaimable
+            # Source: https://github.com/KittyKatt/screenFetch/issues/386#issuecomment-249312716
+            while IFS=":" read -r a b; do
+                case "$a" in
+                    "MemTotal") mem_used="$((mem_used+=${b/kB}))"; mem_total="${b/kB}" ;;
+                    "Shmem") mem_used="$((mem_used+=${b/kB}))"  ;;
+                    "MemFree" | "Buffers" | "Cached" | "SReclaimable")
+                        mem_used="$((mem_used-=${b/kB}))"
+                    ;;
+                esac
+            done < /proc/meminfo
+
+            mem_used="$((mem_used / 1024))"
+            mem_total="$((mem_total / 1024))"
+        ;;
+        
+    esac
+    memory="${mem_used}${mem_label:-MiB} / ${mem_total}${mem_label:-MiB}"
+
+    case "$memory_display" in
+        "bar") memory="$(bar "${mem_used}" "${mem_total}")" ;;
+        "infobar") memory="${memory} $(bar "${mem_used}" "${mem_total}")" ;;
+        "barinfo") memory="$(bar "${mem_used}" "${mem_total}")${info_color} ${memory}" ;;
+    esac
+}
 
 cat << EOF
 
