@@ -3,6 +3,8 @@
 
 is an information tool of the CLI system written in BASH. [ENG]
 
+ARCH...
+
 ## Install
 
 Demo version
