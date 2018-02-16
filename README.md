@@ -30,3 +30,8 @@ _file `.terminal.anonymous` [+5](https://github.com/appath/Terminal/blob/master/
 Resources
 =========
 _Note WIKI ArchLinux '[X resources](https://wiki.archlinux.org/index.php/X_resources)'
+
+.ans
+    [sHaRE]
+
+![ANSI](screenshots/%5BsHaRE%5D.jpg)
