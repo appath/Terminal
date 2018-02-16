@@ -1,6 +1,8 @@
 inf.sh
+
 DEMO
 =========
+INF - displays information about your system next to an image.
 
 ![Screenshot](.info/inf-demo.jpg)
 
