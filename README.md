@@ -1,3 +1,9 @@
+inf.sh
+DEMO
+=========
+
+![Screenshot](.info/inf-demo.jpg)
+
 Terminal Schemes
 =========
 Color schemes for default Linux
