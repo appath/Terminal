@@ -32,6 +32,6 @@ Resources
 _Note WIKI ArchLinux '[X resources](https://wiki.archlinux.org/index.php/X_resources)'
 
 .ans
-    ['sHaRE(https://github.com/appath/Terminal/blob/master/tect.ans)']
+    [sHaRE](https://github.com/appath/Terminal/blob/master/tect.ans)
 
 ![ANSI](screenshots/%5BsHaRE%5D.jpg)
