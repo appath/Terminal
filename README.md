@@ -35,3 +35,4 @@ _Note WIKI ArchLinux '[X resources](https://wiki.archlinux.org/index.php/X_resou
     [sHaRE](https://github.com/appath/Terminal/blob/master/tect.ans)
 
 ![ANSI](screenshots/%5BsHaRE%5D.jpg)
+### 2018
