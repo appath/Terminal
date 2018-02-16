@@ -1,4 +1,5 @@
 inf.sh 
+
 `(***)` [demo](https://github.com/appath/Terminal/tree/master/.info)
 
 DEMO
