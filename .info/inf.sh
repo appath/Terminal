@@ -17,20 +17,27 @@
 #  To correct while so VIM :set fileformat=unix save file :wq!
 #
 #  SHELL Bash
+#  v.0.1b
 
 source $HOME/.info/color
+user=$(whoami || printf "%s" "${HOME/*\/}")
+hostname=$(hostname)
 kernel=$(uname -rmo)
 system=$(source /etc/os-release && echo $PRETTY_NAME)
 pkgs=$(pacman -Q | wc -l)
 shell=$(grep `id -u` /etc/passwd | awk -F ':' '{ print $7 }')
-memory=$(free -m | awk 'FNR==2{printf "%sMB / %sMB (%.2f%%)\n", $3,$2,$3*100/$2 }')
+memory=$(free -m | awk 'FNR==2{ printf "%sMB / %sMB (%.2f%%)\n", $3,$2,$3*100/$2 }')
+disk=$(df -H | grep '/dev/sda3' | tail -1 | awk '{ printf $3 " / " $2 " (" $5 ") " }')
+date=$(date +"%a %d %b %Y %H:%M %p")
 
 cat << EOF
 
-${f1}Os ${f0}................ $f2$system
-${f1}Kernel ${f0}............ $f2$kernel
-${f1}Shell ${f0}............. $f2$shell
-${f1}Memory ${f0}............ $f2$memory
-${f1}Package ${f0}........... $f2$pkgs
+${p0}Os ${f0}................ $f2$system
+${p0}Kernel ${f0}............ $f2$kernel
+${p0}Shell ${f0}............. $f2$shell
+${p0}Package ${f0}........... $f2$pkgs
+${p0}Memory ${f0}............ $f2$memory
+${p0}Disk (${p1}/${p0}) ${f0}.......... $f2$disk
+${p0}Date ${f0}.............. $f2$date
 
 EOF
