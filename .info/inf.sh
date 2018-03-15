@@ -17,7 +17,6 @@
 #  To correct while so VIM :set fileformat=unix save file :wq!
 #
 #  SHELL Bash
-#  v.0.1b
 
 source $HOME/.info/color
 user=$(whoami || printf "%s" "${HOME/*\/}")
