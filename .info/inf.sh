@@ -17,6 +17,7 @@
 #  To correct while so VIM :set fileformat=unix save file :wq!
 #
 #  SHELL Bash
+#  v.0.1b
 
 source $HOME/.info/color
 user=$(whoami || printf "%s" "${HOME/*\/}")
@@ -31,12 +32,12 @@ date=$(date +"%a %d %b %Y %H:%M %p")
 
 cat << EOF
 
-${p0}Os ${f0}................ $f2$system
-${p0}Kernel ${f0}............ $f2$kernel
-${p0}Shell ${f0}............. $f2$shell
-${p0}Package ${f0}........... $f2$pkgs
-${p0}Memory ${f0}............ $f2$memory
-${p0}Disk (${p1}/${p0}) ${f0}.......... $f2$disk
-${p0}Date ${f0}.............. $f2$date
+${p0}Os ${f0}**************** $f2$system
+${p0}Kernel ${f0}************ $f2$kernel
+${p0}Shell ${f0}************* $f2$shell
+${p0}Package ${f0}*********** $f2$pkgs
+${p0}Memory ${f0}************ $f2$memory
+${p0}Disk (${p1}/${p0}) ${f0}********** $f2$disk
+${p0}Date ${f0}************** $f2$date
 
 EOF
